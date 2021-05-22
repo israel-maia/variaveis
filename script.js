@@ -1,8 +1,9 @@
+var nota1 = prompt("entre  com a primeira nota:" );
 
-var anoAtual = 2021;
+var nota2 = prompt("entre com a segunda nota:" );
 
-var anoNascimento = prompt("Digite o ano em qe voce nasceu");
+var nota3 = prompt("entre com a terceira nota:" );
 
-var idade = anoAtual - anoNascimento;
- 
-alert("sua idade é: " + idade +  " anos"); 
+var total =( parseInt(nota1) + parseInt(nota2) + parseInt(nota3) )/3
+
+alert("sua nota é: " + total);
